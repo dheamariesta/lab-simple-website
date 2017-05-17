@@ -2,36 +2,41 @@
 <html>
 <head>
     <title>About Me</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <meta charset="utf-8">
+    <link href="samplecss.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <hr class="bold">
-    <header>
-        <span id="about">About Me </span> | <a href="portfolio.html">Portfolio</a>
-    <h1>Dhea Mariesta Chanjaya</h1>
-    </header>
-    <hr>
-    <div>
-        <article>
-            <h3>I enjoy life as a developer</h3>
-            <p>I'm Dhea Mariesta, a Developer based in Singapore. I have five years of experience in the graphic design world, specializing in the creation of responsive websites.<br><br>
-            <i><strong>Check out my projects under <a href="portfolio.html" id="portfolio">portfolio</a> tab!</strong></i></p>
-        </article>
+    <div class="wrapper">
 
-        <img src="images/dhea-avatar.jpg">
+        <header>
+            <nav>
+                <ul>
+                    <li class="active">About Me</li><li><a href="portfolio.html">Portfolio</a></li>
+                    <!-- if dont want any space, write html this way or use span instead of ul li -->
+                </ul>
+                <!-- use ul and li if you might want to add more space in the future -->
+            </nav>
+            <h1>joe johnson</h1>
+        </header>
+
+        <main>
+            <div class="about">
+                <h3>I enjoy life as a developer</h3>
+                <p>I'm Joe Johnson, a Developer based in NYC. I Have ten years of experience in the graphic design world, specializing in the creation of responsive websites.<br><br>
+                Check out my projects under <a href="portfolio.html" id="portfolio">portfolio</a> tab!</p>
+            </div><div class="profile"><img src="images/avatar.png"></div>
+            <div class="clearfloat"></div>
+        </main>
+
+
+
+
+        <footer>
+            <a href="#">Facebook</a> | <a href="#">LinkedIn</a> | <a href="#">Instagram</a> | <a href="#">Github</a>
+
+
+        </footer>
     </div>
-
-
-
-
-    <footer>
-    <hr>
-    <br>
-        <a href="https://www.facebook.com/">Facebook</a> | <a href="https://www.linkedin.com/feed/">LinkedIn</a> | <a href="https://www.instagram.com/">Instagram</a> | <a href="https://github.com/">Github</a>
-
-    </footer>
-
-    <hr class="bold">
 
 </body>
 </html>

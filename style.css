@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 body{
     font-family: 'Noto Sans', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f7f13d;
     text-align: center;
 
 }
@@ -38,13 +38,13 @@ hr{
     border-left: 0;
 }
 
-.bold{
-    border:5px solid black;
-}
+
 h1, h4{
     text-transform: uppercase;
 }
+div{
 
+}
 a{
     color:black;
     font-weight: bold;

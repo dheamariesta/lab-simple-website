@@ -2,65 +2,66 @@
 <html>
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-    article{
-        width: 75%;
-    }
-    </style>
+    <meta charset="utf-8">
+    <link href="samplecss.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <hr class="bold">
-    <header>
-        <a href="index.html">About Me</a> | <span id="about">Portfolio</span>
-    <h1>Dhea Mariesta Chanjaya</h1>
-    </header>
-    <hr>
-    <article>
-        <h4>Experience</h4>
-        <p>I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an <span>awesome</span> Front-End Web Developer! During my spare time, I enjoy senior water aerobics, pickling, and spending time with my goldfish, Jerry.</p>
-    </article>
+    <div class="wrapper">
 
-    <article>
-        <h4>Portfolio</h4>
-        <ul>
-            <li>
-                <span>Web Developer</span>, Relaxr <small>2015 - present</small>
-                <p>Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.</p>
-                <img src="images/relaxr-deliverable.png">
-            </li>
-            <li>
-                <span>Web Developer</span>, Startup Matchmaker <small>2015 - present</small>
-                <p>Used a design team's wireframes to develop this company's responsive homepage.</p>
-                <img src="images/startup-matchmaker-deliverable.png">
-            </li>
-            <li>
-                <span>Web Developer</span>, CitiPix <small>2015 – present</small>
-                <p>Built web app prototype that allows users to store and quickly retrieve photos using keywords.</p>
-                <img src="images/citipix-deliverable.png">
-            </li>
-    </article>
+        <header>
+            <nav>
+                <ul>
+                    <li class="active">About Me</li><li><a href="portfolio.html">Portfolio</a></li>
+                    <!-- if dont want any space, write html this way or use span instead of ul li -->
+                </ul>
+                <!-- use ul and li if you might want to add more space in the future -->
+            </nav>
+            <h1>joe johnson</h1>
+        </header>
 
-    <article>
-        <h4>EDUCATION</h4>
-        <ul id="education">
-            <!--<li><span>General Assembly</span> — FEWD 2015</li>
-            <li><span>College of Soft Knocks</span> — B.S. 2009</li>
-            <li><span>School of Hard Knocks</span> — 2005 (Honors)</li>-->
-            <li><span>General Assembly</span> — WDI 2017</li>
-            <li><span>Nanyang Technological University</span> — B.Eng. (Information Engineering and Media) 2019</li>
-            <li><span>Meridian Junior College</span> — 2014</li>
-        </ul>
-    </article>
+        <main class="portfolio">
+            <!-- <div class="about"> -->
+                <h3>EXPERIENCE</h3>
+                <p>I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an awesome Front-End Web Developer! During my spare time, I enjoy senior water aerobics, pickling, and spending time with my goldfish, Jerry.</p>
 
 
-    <footer>
-    <hr>
-        <br>
-        <a href="https://www.facebook.com/">Facebook</a> | <a href="https://www.linkedin.com/feed/">LinkedIn</a> | <a href="https://www.instagram.com/">Instagram</a> | <a href="https://github.com/">Github</a>
+                <h4>PORTFOLIO</h4>
+                <ul>
+                    <li>
+                        <span class="web">Web Developer</span>, Relaxr <span class="time">2015 - present</span>
+                        <p>
+                            Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.
+                        </p>
+                        <img src="images/relaxr-deliverable.png"/>
+                    </li><br>
+                    <li>
+                        <span class="web">Web Developer</span>, Startup Matchmaker <span class="time">2015 - present</span>
+                        <p>
+                            Used a design team's wireframes to develop this company's responsive homepage.
+                        </p>
+                        <img src="images/startup-matchmaker-deliverable.png"/>
+                    </li><br>
+                    <li>
+                        <span class="web">Web Developer</span>, CitiPix <span class="time">2015 – present</span>
+                        <p>
+                            Built web app prototype that allows users to store and quickly retrieve photos using keywords.
+                        </p>
+                        <img src="images/citipix-deliverable.png"/>
+                    </li>
 
-    </footer>
-    <hr class="bold">
+            <!-- </div><div class="profile"><img src="images/avatar.png"></div> -->
+            <!-- <div class="clearfloat"></div> -->
+        </main>
+
+
+
+
+        <footer>
+            <a href="#">Facebook</a> | <a href="#">LinkedIn</a> | <a href="#">Instagram</a> | <a href="#">Github</a>
+
+
+        </footer>
+    </div>
 
 </body>
 </html>
