@@ -102,6 +102,9 @@ main .profile img{
 main .about h3{
     text-transform: uppercase;
 }
+main h3 {
+    font-size: 22px;
+}
 
 .clearfloat{
     clear: both;
@@ -120,6 +123,12 @@ main .about h3{
 }
 p{
     font-family: serif;
+}
+main ul li img{
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+
 }
 /*footer*/
 footer{
