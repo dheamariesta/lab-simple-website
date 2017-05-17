@@ -1,10 +1,11 @@
 /*block elements use as much space as possible*/
 /*inline elements behave just like text*/
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 body{
-    font-family: Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     background-color: #f2f2f2;
     text-align: center;
+
 }
 header, footer{
     margin: 50px 0 ;
@@ -14,11 +15,11 @@ footer{
     clear: both;
 }
 img{
-    width:250px;
+    width:200px;
     display: inline-block;
     padding: 5px;
     border:1px solid black;
-    margin:20px 100px 20px 0;
+    margin:20px 200px 20px 0;
     float:right;
 }
 
@@ -40,13 +41,18 @@ hr{
 .bold{
     border:5px solid black;
 }
-h1{
+h1, h4{
     text-transform: uppercase;
 }
+
 a{
     color:black;
     font-weight: bold;
     font-size:15px;
+}
+#portfolio{
+    color:black;
+    font-size:18px;
 }
 h3{
     text-transform: uppercase;
@@ -54,7 +60,7 @@ h3{
     margin-top: 50px;
 }
 article{
-    width:30%;
+    width:40%;
     display: inline-block;
     text-align: left;
     float:left;
@@ -66,6 +72,7 @@ article{
 }
 p{
     font-family: serif;
+    font-size:18px;
 }
 .link{
     display: inline;
@@ -73,7 +80,9 @@ p{
     border-left: 2px solid black;
 }
 
-
+#education{
+    font-size: 16px;
+}
 li img{
     float: none;
     width:500px;
@@ -83,4 +92,5 @@ span{
     font-style: italic;
     font-weight: bold;
 }
+
 /*inline-block can also be used*/
