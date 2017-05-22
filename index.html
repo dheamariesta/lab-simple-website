@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
     <title>About Me</title>
     <meta charset="utf-8">
     <link href="samplecss.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper">
-
-        <header>
+<div class="container">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <div class="row">
             <nav>
                 <ul>
                     <li class="active">About Me</li><li><a href="portfolio.html">Portfolio</a></li>
@@ -17,26 +23,29 @@
                 <!-- use ul and li if you might want to add more space in the future -->
             </nav>
             <h1>joe johnson</h1>
-        </header>
+        </div>
 
-        <main>
-            <div class="about">
+        <div class="row main">
+            <div class="col-md-6">
                 <h3>I enjoy life as a developer</h3>
                 <p>I'm Joe Johnson, a Developer based in NYC. I Have ten years of experience in the graphic design world, specializing in the creation of responsive websites.<br><br>
                 Check out my projects under <a href="portfolio.html" id="portfolio">portfolio</a> tab!</p>
-            </div><div class="profile"><img src="images/avatar.png"></div>
-            <div class="clearfloat"></div>
-        </main>
+            </div>
+            <div class="col-md-6">
+                <img src="images/avatar.png">
+            </div>
+        </div>
 
-
-
-
-        <footer>
-            <a href="#">Facebook</a> | <a href="#">LinkedIn</a> | <a href="#">Instagram</a> | <a href="#">Github</a>
-
-
-        </footer>
+        <div class="row">
+            <div class="col-md-12">
+                <footer>
+                    <a href="#">Facebook</a> | <a href="#">LinkedIn</a> | <a href="#">Instagram</a> | <a href="#">Github</a>
+                </footer>
+            </div>
+        </div>
     </div>
+    <div class="col-md-2"></div>
+</div>
 
 </body>
 </html>
